@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Elegant To-Do Web App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-glow-top"></div>
+    <div class="app-glow-bottom"></div>
+    
+    <div class="app-container">
+        <header class="app-header">
+            <h1 class="app-title">TaskFlow</h1>
+            <p class="app-subtitle">Streamline your daily accomplishments</p>
+        </header>
+
+        <section class="task-input-section">
+            <div class="input-card">
+                <input type="text" id="task-input" placeholder="What needs to be done today?" autocomplete="off">
+                <button id="add-task-btn">Add Task</button>
+            </div>
+        </section>
+
+        <main class="todo-grid">
+            <section class="tasks-column pending-column">
+                <div class="column-header">
+                    <h2>Pending Tasks</h2>
+                    <span class="count-badge" id="pending-count">0 pending</span>
+                </div>
+                <div class="task-list-wrapper">
+                    <ul class="task-list" id="pending-list"></ul>
+                    <div class="empty-state" id="pending-empty">
+                        <div class="empty-icon">☕</div>
+                        <p class="empty-text">No pending tasks. Time to relax!</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tasks-column completed-column">
+                <div class="column-header">
+                    <h2>Completed Tasks</h2>
+                    <span class="count-badge" id="completed-count">0 completed</span>
+                </div>
+                <div class="task-list-wrapper">
+                    <ul class="task-list" id="completed-list"></ul>
+                    <div class="empty-state" id="completed-empty">
+                        <div class="empty-icon">🚀</div>
+                        <p class="empty-text">No completed tasks yet. Let's get things done!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="app-footer">
+        <div class="container">
+            <div class="intern-badge">
+                <p>Intern: <strong>Vaishnavi Thorat</strong></p>
+                <p>Program: <strong>OASIS Infobyte Summer Internship Program (OIBSIP)</strong></p>
+                <p>Track: <strong>Web Development and Designing</strong></p>
+                <p>Level: <strong>Level 2, Task 3</strong></p>
+                <p>GitHub Profile: <a href="https://github.com/vaishnavithorat6852" target="_blank" rel="noopener noreferrer">vaishnavithorat6852</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -20,3 +20,7 @@
   - **Description:** A responsive, visually engaging tribute page dedicated to Dr. A. P. J. Abdul Kalam. Built using HTML5 and CSS3, with a combination of serif/sans-serif typography and styled grid cards.
   - **Folder:** [OIBSIP/WebDevelopment-Level2-Task2-TributePage](./OIBSIP/WebDevelopment-Level2-Task2-TributePage)
   - **Live Link:** [View Project](https://vaishnavithorat6852.github.io/-OIBSIP/OIBSIP/WebDevelopment-Level2-Task2-TributePage/)
+- **Task 3: To-Do Web App**
+  - **Description:** An interactive, state-driven To-Do application featuring pending/completed lists, inline editing, task metrics, custom animations, added/completed timestamps, and localStorage persistence.
+  - **Folder:** [OIBSIP/WebDevelopment-Level2-Task3-ToDoWebApp](./OIBSIP/WebDevelopment-Level2-Task3-ToDoWebApp)
+  - **Live Link:** [View Project](https://vaishnavithorat6852.github.io/-OIBSIP/OIBSIP/WebDevelopment-Level2-Task3-ToDoWebApp/)
