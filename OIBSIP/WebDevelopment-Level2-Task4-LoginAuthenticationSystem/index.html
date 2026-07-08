@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureAuth - Ultimate Authentication Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-glow-top"></div>
+    <div class="auth-glow-bottom"></div>
+
+    <div class="auth-wrapper">
+        <header class="auth-header">
+            <h1 class="auth-brand">SecureAuth</h1>
+            <p class="auth-tagline">Access your secure workspace dashboard</p>
+        </header>
+
+        <div class="auth-card">
+            <div id="alert-container" class="alert-container hidden"></div>
+
+            <div id="login-view" class="auth-view">
+                <h2 class="view-title">Welcome Back</h2>
+                <form id="login-form" novalidate>
+                    <div class="input-group">
+                        <input type="text" id="login-username" required placeholder=" ">
+                        <label for="login-username">Username or Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="login-password" required placeholder=" ">
+                        <label for="login-password">Password</label>
+                    </div>
+                    <button type="submit" class="auth-btn">Sign In</button>
+                </form>
+                <div class="auth-switch">
+                    <span>Don't have an account?</span>
+                    <button id="go-to-register" class="switch-link-btn">Create one</button>
+                </div>
+            </div>
+
+            <div id="register-view" class="auth-view hidden">
+                <h2 class="view-title">Register Account</h2>
+                <form id="register-form" novalidate>
+                    <div class="input-group">
+                        <input type="text" id="register-username" required placeholder=" ">
+                        <label for="register-username">Username</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="register-email" required placeholder=" ">
+                        <label for="register-email">Email Address</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="register-password" required placeholder=" ">
+                        <label for="register-password">Password</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="register-confirm-password" required placeholder=" ">
+                        <label for="register-confirm-password">Confirm Password</label>
+                    </div>
+                    <button type="submit" class="auth-btn">Register</button>
+                </form>
+                <div class="auth-switch">
+                    <span>Already have an account?</span>
+                    <button id="go-to-login" class="switch-link-btn">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="auth-footer">
+        <div class="intern-badge">
+            <p>Intern: <strong>Vaishnavi Thorat</strong></p>
+            <p>Program: <strong>OASIS Infobyte Summer Internship Program (OIBSIP)</strong></p>
+            <p>Track: <strong>Web Development and Designing</strong></p>
+            <p>Level: <strong>Level 2, Task 4</strong></p>
+            <p>GitHub Profile: <a href="https://github.com/vaishnavithorat6852" target="_blank" rel="noopener noreferrer">vaishnavithorat6852</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

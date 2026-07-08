@@ -24,3 +24,7 @@
   - **Description:** An interactive, state-driven To-Do application featuring pending/completed lists, inline editing, task metrics, custom animations, added/completed timestamps, and localStorage persistence.
   - **Folder:** [OIBSIP/WebDevelopment-Level2-Task3-ToDoWebApp](./OIBSIP/WebDevelopment-Level2-Task3-ToDoWebApp)
   - **Live Link:** [View Project](https://vaishnavithorat6852.github.io/-OIBSIP/OIBSIP/WebDevelopment-Level2-Task3-ToDoWebApp/)
+- **Task 4: Login Authentication System**
+  - **Description:** A secure client-side login and registration authentication system utilizing Web Crypto SHA-256 password hashing, validation logic, local storage checks, and protected dashboard redirection.
+  - **Folder:** [OIBSIP/WebDevelopment-Level2-Task4-LoginAuthenticationSystem](./OIBSIP/WebDevelopment-Level2-Task4-LoginAuthenticationSystem)
+  - **Live Link:** [View Project](https://vaishnavithorat6852.github.io/-OIBSIP/OIBSIP/WebDevelopment-Level2-Task4-LoginAuthenticationSystem/)

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureAuth - Protected Dashboard</title>
+    <script>
+        if (!localStorage.getItem('session_user')) {
+            window.location.replace('index.html');
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-glow-top"></div>
+    <div class="auth-glow-bottom"></div>
+
+    <div class="dashboard-wrapper">
+        <header class="dashboard-header">
+            <span class="secure-badge">Secure Session Active</span>
+            <h1 class="dashboard-title">Workspace Dashboard</h1>
+        </header>
+
+        <main class="dashboard-card">
+            <div class="user-profile-header">
+                <div class="profile-avatar" id="profile-avatar">U</div>
+                <div class="profile-welcome">
+                    <h2>Welcome, <span id="user-display-name">User</span>!</h2>
+                    <p>You have successfully authenticated your session.</p>
+                </div>
+            </div>
+
+            <div class="session-details">
+                <h3>Session Details</h3>
+                <div class="detail-row">
+                    <span class="detail-label">Username</span>
+                    <span class="detail-value" id="session-username">-</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Email Address</span>
+                    <span class="detail-value" id="session-email">-</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Login Timestamp</span>
+                    <span class="detail-value" id="session-time">-</span>
+                </div>
+            </div>
+
+            <button id="logout-btn" class="logout-btn">Terminate Session (Logout)</button>
+        </main>
+    </div>
+
+    <footer class="auth-footer">
+        <div class="intern-badge">
+            <p>Intern: <strong>Vaishnavi Thorat</strong></p>
+            <p>Program: <strong>OASIS Infobyte Summer Internship Program (OIBSIP)</strong></p>
+            <p>Track: <strong>Web Development and Designing</strong></p>
+            <p>Level: <strong>Level 2, Task 4</strong></p>
+            <p>GitHub Profile: <a href="https://github.com/vaishnavithorat6852" target="_blank" rel="noopener noreferrer">vaishnavithorat6852</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
